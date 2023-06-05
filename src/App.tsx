@@ -13,7 +13,7 @@ function App() {
   const [result, setResult] = useState<boolean>(true);
   return (
     <div
-      className={`flex w-full flex-col h-screen items-center px-6 transition-all duration-500 md:px-0 md:h-full ${
+      className={`flex w-full flex-col min-h-screen items-center px-6 transition-all duration-500 md:px-0 md:h-full ${
         blackMode ? "bg-[#F6F8FF]" : "bg-[#141D2F]"
       }`}
     >
